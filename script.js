@@ -321,9 +321,10 @@ document.addEventListener('keydown', (e) => {
 });
 
 // 添加键盘快捷键提示
-document.querySelector('.footer p').innerHTML = `
-    提示：复制后的内容可以直接粘贴到微信公众号编辑器中，保持样式不变<br>
-    <small>快捷键：Ctrl+Enter 预览 | Ctrl+Shift+C 复制</small>
+document.querySelector('.footer').innerHTML = `
+    <p>提示：复制后的内容可以直接粘贴到微信公众号编辑器中，保持样式不变<br>
+    <small>快捷键：Ctrl+Enter 预览 | Ctrl+Shift+C 复制</small></p>
+    <p>作者：栗噔噔</p>
 `;
 
 // 图片样式转换器功能
