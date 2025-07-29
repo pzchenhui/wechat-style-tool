@@ -62,12 +62,12 @@
 
 ## 🌐 在线使用
 
-访问：[https://yourusername.github.io/wechat-style-tool](https://yourusername.github.io/wechat-style-tool)
+访问：[https://nutllwhy.github.io/wechat-style-tool](https://nutllwhy.github.io/wechat-style-tool)
 
 ## 📦 本地运行
 
 ```bash
-git clone https://github.com/yourusername/wechat-style-tool.git
+git clone https://github.com/nutllwhy/wechat-style-tool.git
 cd wechat-style-tool
 # 直接用浏览器打开 index.html 即可
 ```
