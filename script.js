@@ -484,8 +484,8 @@ class ImageStyleConverter {
         
         // 计算合适的画布尺寸
         const maxSize = 400;
-        const outerBorderWidth = 8;  // 外边框宽度（更细）
-        const whiteBorderWidth = 6;  // 白色内边框宽度
+        const outerBorderWidth = 5;  // 外边框宽度（更细）
+        const whiteBorderWidth = 4;  // 白色内边框宽度
         const totalBorderWidth = outerBorderWidth + whiteBorderWidth;
         const cornerRadius = 12;
         const innerCornerRadius = 8;
@@ -660,8 +660,8 @@ class ImageStyleConverter {
         // 使用更高的分辨率
         const scale = 2; // 2倍分辨率
         const maxSize = 800; // 更大的最大尺寸
-        const outerBorderWidth = 16;
-        const whiteBorderWidth = 12;
+        const outerBorderWidth = 10;
+        const whiteBorderWidth = 8;
         const totalBorderWidth = outerBorderWidth + whiteBorderWidth;
         const cornerRadius = 24;
         const innerCornerRadius = 16;
